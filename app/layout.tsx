@@ -21,9 +21,6 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body className="bg-background">
-        <a href="#main-content" className="skip-link">
-          Skip to main content
-        </a>
         <CookieConsentProvider>
           <ThemeProvider attribute="class" defaultTheme="light">
             {children}
@@ -34,3 +31,4 @@ export default function RootLayout({
     </html>
   )
 }
+
